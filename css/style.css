@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+body {
+    overflow-y: hidden;
+    font-family:"Dosis" !important  ;
+    font-size: 1.4rem !important;
+}
+
+.first-section {
+    background-color: #000000f2;
+}
+
+.overlayer {
+    position: fixed;
+    display: flex;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: black;
+    z-index: 99999999999;
+    color: white;
+}
+
+.my-content1 {
+    padding: 3rem 0rem;
+    padding-left:40px;
+    /* display: none; */
+}
+
+.my-content2 {
+    padding: 3rem 0rem;
+}
+
+.my-content3 {
+    padding: 3rem 0rem;
+}
+
+.my-content4 {
+    padding: 3rem 0rem;
+}
+
+.my-container {
+    padding: 70px;
+}
+
+.items {
+    position: relative;
+}
+
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, .7);
+    transform: translatey(100%);
+    transition: all 0.4s;
+
+}
+
+.items:hover .layer {
+    transform: translatey(0);
+
+}
+
+.side-bar {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    /* left: 240px; */
+    width: 60px;
+    background-color: #f8f6f6;
+    z-index: 999999;
+}
+
+.item {
+    opacity: 0;
+    padding-top: 500px;
+}
+
+.side-content {
+    position: fixed;
+    left: -250px;
+    top: 0;
+    width: 250px;
+    bottom: 0;
+    background-color: antiquewhite;
+    z-index: 999999999999;
+
+}
+
+.top-content {
+    padding-top: 30px;
+    padding-left: 20px;
+
+}
+
+.lower-content {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    padding: 20px;
+}
+
+.spns {
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.37);
+    cursor: pointer;
+}
+
+.top-content ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.top-content ul {
+    height: 300px;
+}
+
+
+.innerside-img {
+    width: 40px;
+}
+
+.side-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+.side-strip {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+
+}
+
+.side-icons {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.share {
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.input {
+    border: none;
+    border-bottom: solid 2px black;
+    border-radius: unset;
+    background-color: transparent;
+
+    text-align: center;
+}
+
+.input:focus {
+    background-color: transparent;
+    box-shadow: none;
+    color: white;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+.search-bage {
+    display: none;
+}
+
+.catigories-page {
+    display: none;
+    padding-left:40px;
+}
+
+.catigories-page2 {
+    display: none;
+    padding-left:40px;
+}
+
+.detailsOfCatigoriesItem {
+    display: none;
+    padding-left:55px;
+}
+
+.inner {
+    text-align: center;
+
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+    cursor: pointer;
+}
+
+.inner i {
+    color: #e65a50ab;
+}
+
+.inner h3 {
+    color: black;
+}
+
+.area-page {
+    display: none;
+    padding-left:40px;
+}
+
+.inner .fa-bowl-food {
+    color: #9ee650ab;
+}
+
+.burger h3,
+.burger p {
+    color: white;
+}
+
+.Ingredients-page {
+    display: none;
+    padding-left:40px;
+}
+.Ingredients-related{
+    padding-left:55px;
+}
+
+.pd input {
+    width: 50%;
+    transition: all 0.3s;
+    box-shadow: 0 .5rem 1rem rgba(255, 255, 255, .1) !important;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, .7);
+}
+
+.btnn {
+    border-color: rgb(80, 136, 136);
+   
+    background-color: transparent;
+    color: #dc3545;
+    
+}
+
+.my-inputs .own {
+    text-align: unset;
+
+}
+
+.my-inputs .own:focus {
+    background-color: transparent;
+    color: white;
+
+}
+
+.head h2 {
+    font-size: 3rem;
+    margin: 30px 0px;
+    color: white;
+}
+
+.contact-bage {
+    
+    display: none;
+    padding: 8rem 0rem;
+    padding-left:55px;
+}
+
+.maels-imges {
+    padding: 30px;
+}
+
+.meal-gradients {
+    margin: 30px 0px;
+}
+
+.style {
+    color: #155724;
+    background-color: #d4edda;
+}
+
+.details-of-meals {
+    display: none;
+    padding-left:55px;
+}
+
+.relatedToArae {
+    display: none;
+    padding-left:55px;
+}
+
+
+
+.alert {
+    padding: 15px;
+    background-color: #dc3545;
+}
+
+.areaMealsDetails {
+    display: none;
+    padding-left:55px;
+}
+
+.inner-content {
+    padding: 20px;
+}
+
+.ingrediantMealsDetails {
+    display: none;
+    padding-left: 55px;
+}
+
+
+
+.search-result {
+    padding: 8rem 0rem;
+    display: none;
+    padding-left:55px;
+}
+
+.detailsOfsearchItem {
+    display: none;
+    padding-left:55px;
+}
+
+.repassword {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    color: transparent;
+    /* display: none; */
+}
+
+.phone {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.email{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;  
+    cursor: pointer;
+}
+.fisrtpassword{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px; 
+    cursor: pointer; 
+}
+.name22{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+#on,#to,#thre,#fou,#fiv{
+    color: transparent;
+}
